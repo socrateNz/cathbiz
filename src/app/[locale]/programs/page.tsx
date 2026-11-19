@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import {
   ArrowRight,
@@ -24,7 +25,8 @@ const audienceIcons = [Sprout, Users, HeartHandshake, Plane, Hourglass];
 export async function generateMetadata({ params }: PageProps<"/[locale]/programs">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "programs.hero" });
-  return { title: t("title"), description: t("subtitle") };
+  const tm = await getTranslations({ locale, namespace: "meta.pages" });
+  return pageMetadata({ locale, path: "/programs", title: t("title"), description: tm("programs") });
 }
 
 export default async function ProgramsPage({ params }: PageProps<"/[locale]/programs">) {

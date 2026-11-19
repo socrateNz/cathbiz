@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Mail, MapPin, Phone } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
@@ -11,7 +12,8 @@ type Country = { code: string; name: string; phones: string[]; seat?: boolean };
 export async function generateMetadata({ params }: PageProps<"/[locale]/contact">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "contact.hero" });
-  return { title: t("title"), description: t("subtitle") };
+  const tm = await getTranslations({ locale, namespace: "meta.pages" });
+  return pageMetadata({ locale, path: "/contact", title: t("title"), description: tm("contact") });
 }
 
 export default async function ContactPage({ params }: PageProps<"/[locale]/contact">) {

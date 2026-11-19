@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { FileCheck2, Info, Mail } from "lucide-react";
 import Reveal from "@/components/Reveal";
@@ -11,7 +12,8 @@ type Step = { title: string; text: string };
 export async function generateMetadata({ params }: PageProps<"/[locale]/membership">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "membership.hero" });
-  return { title: t("title"), description: t("subtitle") };
+  const tm = await getTranslations({ locale, namespace: "meta.pages" });
+  return pageMetadata({ locale, path: "/membership", title: t("title"), description: tm("membership") });
 }
 
 export default async function MembershipPage({ params }: PageProps<"/[locale]/membership">) {

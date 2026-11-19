@@ -1,7 +1,14 @@
 {
   "meta": {
     "title": "CBNA / RECA – Réseau des Entrepreneurs Catholiques d'Afrique",
-    "description": "Catholic Business Network of Africa : entrepreneurs, porteurs de projets et partenaires engagés à mettre l'entrepreneuriat au service du développement de l'Afrique, à la lumière des valeurs chrétiennes."
+    "description": "Catholic Business Network of Africa : entrepreneurs, porteurs de projets et partenaires engagés à mettre l'entrepreneuriat au service du développement de l'Afrique, à la lumière des valeurs chrétiennes.",
+    "pages": {
+      "about": "Découvrez CBNA / RECA, réseau d'entrepreneurs catholiques d'Afrique : notre identité, nos dévotions au Sacré-Cœur et à Marie, nos valeurs et notre gouvernance.",
+      "programs": "Entrepreneuriat, emploi et formation : les axes d'action du Réseau des Entrepreneurs Catholiques d'Afrique pour les jeunes, les femmes et la diaspora.",
+      "presence": "CBNA / RECA est présent au Cameroun, en Côte d'Ivoire, à Madagascar, au Congo, en Centrafrique, en Guinée équatoriale et au Nigeria, avec la diaspora.",
+      "membership": "Adhérez au Réseau des Entrepreneurs Catholiques d'Afrique : catégories de membres, démarche de parrainage et pièces à fournir pour rejoindre CBNA / RECA.",
+      "contact": "Contactez CBNA / RECA, siège à Yaoundé (Cameroun) : e-mail, téléphones et contacts pays pour une adhésion, un partenariat ou une formation."
+    }
   },
   "nav": {
     "home": "Accueil",

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import {
@@ -15,6 +16,8 @@ import {
 import Reveal from "@/components/Reveal";
 import { Button, Eyebrow, QuoteBanner, SectionTitle } from "@/components/ui";
 import { Link } from "@/i18n/navigation";
+import { pageMetadata } from "@/lib/seo";
+import OrganizationJsonLd from "@/components/OrganizationJsonLd";
 
 type Item = { title: string; text: string };
 type Axis = Item & { points: string[] };
@@ -25,6 +28,12 @@ type NearItem = { label: string; href: string };
 const pillarIcons = [Heart, Sparkles, Scale];
 const axisIcons = [Briefcase, Handshake, GraduationCap];
 const nearIcons = [UserPlus, Handshake, Users];
+
+export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return pageMetadata({ locale, path: "", homeTitle: t("title"), description: t("description") });
+}
 
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
@@ -41,6 +50,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
 
   return (
     <>
+      <OrganizationJsonLd locale={locale} />
       {/* HERO : photo de la basilique, la promesse comme porte d'entrée */}
       <section className="relative flex min-h-[calc(100svh-7rem)] items-center overflow-hidden bg-purple-deep text-white">
         <div className="absolute inset-y-0 right-0 w-full overflow-hidden md:w-[62%]">

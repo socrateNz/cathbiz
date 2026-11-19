@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Cormorant_Garamond, Inter, Rouge_Script } from "next/font/google";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { siteName, siteUrl } from "@/lib/seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "../globals.css";
@@ -35,11 +36,22 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
   return {
-    title: { default: t("title"), template: `%s | CBNA / RECA` },
+    metadataBase: new URL(siteUrl),
+    title: { default: t("title"), template: `%s | ${siteName}` },
     description: t("description"),
-    alternates: { languages: { fr: "/fr", en: "/en" } },
+    applicationName: siteName,
+    authors: [{ name: "Catholic Business Network of Africa (CBNA)" }],
+    creator: "CBNA / RECA",
+    publisher: "CBNA / RECA",
+    category: "religion",
+    robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large" } },
+    formatDetection: { telephone: false, email: false, address: false },
   };
 }
+
+export const viewport: Viewport = {
+  themeColor: "#240b2e",
+};
 
 export default async function LocaleLayout({
   children,

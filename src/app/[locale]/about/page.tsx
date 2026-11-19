@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Heart, Quote, Star } from "lucide-react";
@@ -11,7 +12,8 @@ type Saint = { name: string; role: string };
 export async function generateMetadata({ params }: PageProps<"/[locale]/about">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "about.hero" });
-  return { title: t("title"), description: t("subtitle") };
+  const tm = await getTranslations({ locale, namespace: "meta.pages" });
+  return pageMetadata({ locale, path: "/about", title: t("title"), description: tm("about") });
 }
 
 export default async function AboutPage({ params }: PageProps<"/[locale]/about">) {
