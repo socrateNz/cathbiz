@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "title": "CBNA / RECA – Catholic Business Network of Africa",
+    "description": "Catholic Business Network of Africa: entrepreneurs, project leaders and partners committed to putting entrepreneurship at the service of Africa's development, guided by Christian values."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "programs": "Areas of action",
+    "presence": "Presence",
+    "membership": "Membership",
+    "contact": "Contact",
+    "join": "Join us",
+    "menu": "Menu",
+    "close": "Close",
+    "switchTo": "Français"
+  },
+  "topbar": {
+    "seat": "Headquarters: Yaoundé, Cameroon"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Réseau des Entrepreneurs Catholiques d'Afrique",
+      "title": "Doing business with faith for Africa's development",
+      "subtitle": "The Catholic Business Network of Africa (CBNA) brings together entrepreneurs, project leaders and partners who put entrepreneurship at the service of the common good.",
+      "ctaJoin": "Join the network",
+      "ctaDiscover": "Discover our mission",
+      "label": "5th promise of the Sacred Heart of Jesus",
+      "cta": "Discover",
+      "photo": "Basilica of Our Lady of Peace, Yamoussoukro"
+    },
+    "welcome": {
+      "eyebrow": "Welcome",
+      "title": "A community of entrepreneurs on a mission",
+      "p1": "Our community brings together entrepreneurs, project leaders and partners committed to putting entrepreneurship at the service of Africa's development.",
+      "p2": "We draw on devotion to the Sacred Heart of Jesus and the Immaculate Heart of Mary, on the intercession of the saints and angels, and on Christian values: integrity, solidarity, justice and the common good.",
+      "signature": "Frank Ombick",
+      "role": "Co-founder of CBNA",
+      "motto": "All on mission"
+    },
+    "promise": {
+      "eyebrow": "Our foundation",
+      "title": "The Sacred Heart's promise to entrepreneurs",
+      "number": "5th promise",
+      "quote": "I will pour abundant blessings upon all their undertakings.",
+      "source": "Promises of Our Lord Jesus Christ to Saint Margaret Mary Alacoque, Paray-le-Monial",
+      "text": "Among the promises made to those devoted to his Sacred Heart, the fifth speaks directly to those who undertake. It lies at the heart of our network: we entrust our projects, our businesses and our teams to the Sacred Heart of Jesus.",
+      "cta": "Our spirituality",
+      "listTitle": "The promises of the Sacred Heart",
+      "items": [
+        "I will give them all the graces necessary in their state of life.",
+        "I will establish peace in their families.",
+        "I will comfort them in all their afflictions.",
+        "I will be their secure refuge during life, and above all in death.",
+        "I will pour abundant blessings upon all their undertakings.",
+        "Sinners will find in my Heart the source and infinite ocean of mercy.",
+        "Lukewarm souls shall become fervent.",
+        "Fervent souls shall rise to great perfection.",
+        "I will bless every home in which the image of my Heart is exposed and honoured.",
+        "I will give to priests the gift of touching the most hardened hearts."
+      ],
+      "heartAlt": "The Sacred Heart of Jesus"
+    },
+    "pillars": {
+      "eyebrow": "What sustains us",
+      "title": "Three spiritual pillars",
+      "items": [
+        {
+          "title": "Devotions",
+          "text": "To the Sacred Heart of Jesus and the Immaculate Heart of Mary, the source of our commitment and our hope."
+        },
+        {
+          "title": "Intercession of saints and angels",
+          "text": "Saint Joseph, patron of workers, Saint Margaret Mary Alacoque and the Archangels Michael, Gabriel and Raphael."
+        },
+        {
+          "title": "Christian values",
+          "text": "Integrity, solidarity, justice and the common good guide our decisions and business practices."
+        }
+      ]
+    },
+    "axes": {
+      "eyebrow": "Our areas of action",
+      "title": "Start businesses, create jobs, train people",
+      "intro": "Together with leading partners in Africa and beyond, we act on three complementary levers.",
+      "cta": "See our areas of action"
+    },
+    "stats": [
+      {
+        "value": "7",
+        "label": "countries"
+      },
+      {
+        "value": "3",
+        "label": "areas of action"
+      },
+      {
+        "value": "4",
+        "label": "founding values"
+      },
+      {
+        "value": "FR · EN",
+        "label": "a bilingual network"
+      }
+    ],
+    "presence": {
+      "eyebrow": "Where we are",
+      "title": "A pan-African vision, with the diaspora",
+      "text": "Present in Cameroon, Côte d'Ivoire, Madagascar, Congo, the Central African Republic, Equatorial Guinea and Nigeria, the network also involves the African diaspora.",
+      "cta": "See all countries"
+    },
+    "join": {
+      "title": "Are you an entrepreneur, a project leader or a partner?",
+      "text": "Join a community that brings together faith, excellence and Africa's development.",
+      "cta": "Become a member",
+      "ctaContact": "Write to us"
+    },
+    "near": {
+      "eyebrow": "Close to you",
+      "title": "And you?",
+      "items": [
+        {
+          "label": "Join the network",
+          "href": "/membership"
+        },
+        {
+          "label": "Become a partner",
+          "href": "/contact"
+        },
+        {
+          "label": "Receive our news",
+          "href": "mailto:cbna.reca@gmail.com?subject=%5BCBNA%5D%20News"
+        }
+      ]
+    }
+  },
+  "axes": [
+    {
+      "title": "Entrepreneurship",
+      "text": "Supporting the creation and growth of businesses across all social groups.",
+      "points": [
+        "Young people",
+        "Women and girls",
+        "Disadvantaged people",
+        "Diaspora",
+        "Retirees"
+      ]
+    },
+    {
+      "title": "Job creation",
+      "text": "Creating decent, lasting jobs and fostering professional integration within the network's businesses.",
+      "points": [
+        "Job creation",
+        "Professional integration",
+        "Decent work"
+      ]
+    },
+    {
+      "title": "Training",
+      "text": "Training people of all ages and social groups, with a focus on mentoring young entrepreneurs.",
+      "points": [
+        "Ongoing training",
+        "Mentoring",
+        "Sharing experience"
+      ]
+    }
+  ],
+  "about": {
+    "hero": {
+      "title": "About us",
+      "subtitle": "Catholic Business Network of Africa (CBNA), also known as Réseau des Entrepreneurs Catholiques d'Afrique (RECA)."
+    },
+    "who": {
+      "eyebrow": "Who we are",
+      "title": "A network of Catholic entrepreneurs serving Africa",
+      "p1": "CBNA / RECA is a non-profit, non-political association headquartered in Yaoundé, Cameroon.",
+      "p2": "It brings together entrepreneurs, project leaders and partners who want to make business a place of human, economic and spiritual growth, in the light of the social teaching of the Church.",
+      "p3": "The network is organised into national sections and diaspora chapters, and works in both French and English."
+    },
+    "spirituality": {
+      "eyebrow": "Our spirituality",
+      "title": "The devotions that inspire us",
+      "heart": {
+        "title": "The Sacred Heart of Jesus",
+        "text": "We entrust our businesses to the Sacred Heart, faithful to the promise made to Saint Margaret Mary Alacoque: \"I will pour abundant blessings upon all their undertakings.\""
+      },
+      "mary": {
+        "title": "The Immaculate Heart of Mary",
+        "text": "We turn to Mary, an attentive mother, to guide our work, our families and our communities."
+      }
+    },
+    "saints": {
+      "eyebrow": "Our intercessors",
+      "title": "Saints and angels",
+      "items": [
+        {
+          "name": "Saint Joseph",
+          "role": "Patron of workers"
+        },
+        {
+          "name": "Saint Margaret Mary Alacoque",
+          "role": "Messenger of the Sacred Heart"
+        },
+        {
+          "name": "Saint Michael the Archangel",
+          "role": "Protection and spiritual combat"
+        },
+        {
+          "name": "Saint Gabriel the Archangel",
+          "role": "Messenger of the Good News"
+        },
+        {
+          "name": "Saint Raphael the Archangel",
+          "role": "Guide and travelling companion"
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Our values",
+      "title": "Four Christian values",
+      "items": [
+        {
+          "title": "Integrity",
+          "text": "Acting with honesty and transparency in all our business relationships."
+        },
+        {
+          "title": "Solidarity",
+          "text": "Supporting one another and leaving no one behind."
+        },
+        {
+          "title": "Justice",
+          "text": "Seeking fairness in work, trade and the sharing of its fruits."
+        },
+        {
+          "title": "Common good",
+          "text": "Making business a driver of development for the whole of society."
+        }
+      ]
+    },
+    "governance": {
+      "eyebrow": "How we are organised",
+      "title": "Governance serving the mission",
+      "items": [
+        {
+          "title": "General Assembly",
+          "text": "The sovereign body that brings members together and sets the main directions."
+        },
+        {
+          "title": "Executive Board",
+          "text": "Implements decisions and leads the life of the network."
+        },
+        {
+          "title": "Ethics and Discernment Council",
+          "text": "Ensures the Code of Ethics and the association's values are respected."
+        },
+        {
+          "title": "National sections and diaspora chapters",
+          "text": "Bring the network to life close to its members, in each country."
+        }
+      ]
+    },
+    "founder": {
+      "quote": "Our community brings together entrepreneurs, project leaders and partners committed to putting entrepreneurship at the service of Africa's development. All on mission!",
+      "name": "Frank Ombick",
+      "role": "Co-founder of CBNA"
+    }
+  },
+  "programs": {
+    "hero": {
+      "title": "Our areas of action",
+      "subtitle": "Entrepreneurship, jobs and training: three levers for Africa's development."
+    },
+    "intro": "We work with leading partners in Africa and beyond so that every social group can start a business, work and learn.",
+    "audiences": {
+      "eyebrow": "For whom?",
+      "title": "Every social group",
+      "items": [
+        {
+          "title": "Young people",
+          "text": "Mentoring and support for young entrepreneurs."
+        },
+        {
+          "title": "Women and girls",
+          "text": "Supporting women's entrepreneurship and economic independence."
+        },
+        {
+          "title": "Disadvantaged people",
+          "text": "Opportunities for those who are furthest from them."
+        },
+        {
+          "title": "Diaspora",
+          "text": "A bridge between Africa and its children around the world."
+        },
+        {
+          "title": "Retirees",
+          "text": "Valuable experience to pass on and to honour."
+        }
+      ]
+    },
+    "partners": {
+      "title": "With leading partners",
+      "text": "Institutions, businesses, the Church and organisations, in Africa and elsewhere: would you like to support our work? Let's talk.",
+      "cta": "Become a partner"
+    }
+  },
+  "presence": {
+    "hero": {
+      "title": "Where we are",
+      "subtitle": "Seven countries, a pan-African vision and the involvement of the diaspora."
+    },
+    "intro": "The network is organised into national sections. Contact the section in your country or our headquarters in Yaoundé.",
+    "seat": "Headquarters",
+    "contactSeat": "Contact via headquarters",
+    "countries": [
+      {
+        "code": "CM",
+        "name": "Cameroon",
+        "phones": [
+          "+237 670 02 53 26",
+          "+237 677 32 24 99",
+          "+237 655 71 42 44"
+        ],
+        "seat": true
+      },
+      {
+        "code": "CI",
+        "name": "Côte d'Ivoire",
+        "phones": [
+          "+225 07 33 64 32"
+        ]
+      },
+      {
+        "code": "CG",
+        "name": "Congo",
+        "phones": [
+          "+243 814 761 100"
+        ]
+      },
+      {
+        "code": "MG",
+        "name": "Madagascar",
+        "phones": [
+          "+261 34 51 668 19"
+        ]
+      },
+      {
+        "code": "CF",
+        "name": "Central African Republic",
+        "phones": []
+      },
+      {
+        "code": "GQ",
+        "name": "Equatorial Guinea",
+        "phones": []
+      },
+      {
+        "code": "NG",
+        "name": "Nigeria",
+        "phones": []
+      }
+    ],
+    "diaspora": {
+      "title": "The diaspora, a full partner",
+      "text": "African members of the diaspora come together in chapters. They keep a lasting bond with their country of origin and contribute to its development."
+    }
+  },
+  "membership": {
+    "hero": {
+      "title": "Membership",
+      "subtitle": "Join the Catholic Business Network of Africa."
+    },
+    "intro": "Membership is open to Catholic entrepreneurs living in Africa or in the diaspora, and to people of goodwill who share our values.",
+    "categories": {
+      "eyebrow": "Categories",
+      "title": "Membership categories",
+      "items": [
+        {
+          "name": "Active members",
+          "text": "Catholic entrepreneurs with paid-up dues. They can vote and stand for election."
+        },
+        {
+          "name": "Junior members",
+          "text": "Young entrepreneurs in the mentoring programme. They become active members when they reach the age limit."
+        },
+        {
+          "name": "Associate members",
+          "text": "People of goodwill, non-Catholics or non-entrepreneurs, who commit to respecting the ethics charter."
+        },
+        {
+          "name": "Benefactor members",
+          "text": "Individuals or organisations who support the network materially or financially."
+        },
+        {
+          "name": "Honorary members",
+          "text": "Appointed by the General Assembly for outstanding service."
+        }
+      ]
+    },
+    "steps": {
+      "eyebrow": "Process",
+      "title": "How to join",
+      "items": [
+        {
+          "title": "Get in touch",
+          "text": "Write to us or contact your country's section to receive the membership form."
+        },
+        {
+          "title": "Be sponsored",
+          "text": "Your application is sponsored by two active members who know you."
+        },
+        {
+          "title": "Prepare your file",
+          "text": "Attach the required documents and the signed Code of Ethics."
+        },
+        {
+          "title": "Board decision",
+          "text": "The Executive Board reviews your application and notifies you of its decision."
+        }
+      ]
+    },
+    "docs": {
+      "title": "Required documents",
+      "items": [
+        "An identity document",
+        "Proof of business activity (registration, tax number or equivalent)",
+        "Baptism certificate or a sworn statement",
+        "The signed Code of Ethics",
+        "For the diaspora: evidence of your bond with your country of origin",
+        "For an organisation: the appointment of its representative"
+      ]
+    },
+    "note": "Membership and annual fees are set by the General Assembly. Contact us for the current rates.",
+    "cta": "Request the form"
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact",
+      "subtitle": "A question, a project, a partnership? Write to us."
+    },
+    "infoTitle": "Our details",
+    "email": "Email",
+    "phones": "Phones (Cameroon)",
+    "address": "Headquarters",
+    "addressValue": "Yaoundé, Cameroon",
+    "countriesTitle": "Country contacts",
+    "form": {
+      "title": "Send a message",
+      "name": "Full name",
+      "email": "Your email",
+      "subject": "Subject",
+      "subjects": [
+        "Membership",
+        "Partnership",
+        "Training",
+        "Other"
+      ],
+      "message": "Message",
+      "send": "Send",
+      "note": "The button opens your email app with the message pre-filled."
+    }
+  },
+  "footer": {
+    "tagline": "Catholic entrepreneurs committed to Africa's development, in the light of the Sacred Heart of Jesus.",
+    "links": "Navigation",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "nonprofit": "Non-profit, non-political association"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has been moved.",
+    "back": "Back to home"
+  },
+  "quotes": {
+    "work": {
+      "text": "Whatever you do, do from the heart, as for the Lord and not for others.",
+      "ref": "Colossians 3:23"
+    },
+    "talents": {
+      "text": "Well done, my good and faithful servant. Since you were faithful in small matters, I will give you great responsibilities.",
+      "ref": "Matthew 25:21"
+    },
+    "hands": {
+      "text": "May the favour of the Lord our God be ours. Prosper the work of our hands!",
+      "ref": "Psalm 90:17"
+    }
+  }
+}

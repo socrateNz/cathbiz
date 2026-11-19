@@ -1,26 +1,60 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Palette issue du logo CBNA / RECA : violet, vert, or */
+@theme {
+  --color-purple-deep: #240b2e;
+  --color-purple: #4e1a5c;
+  --color-purple-soft: #6d2f7d;
+  --color-green: #0b8a50;
+  --color-green-deep: #06623a;
+  --color-gold: #c99a3e;
+  --color-gold-light: #e8cf84;
+  --color-cream: #fbf8f2;
+  --color-sand: #f3ece0;
+  --color-ink: #1f1a24;
+  --color-muted: #5f5866;
+
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-script: var(--font-rouge), cursive;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+/* Motif losange inspiré du logo */
+.bg-diamonds {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cpath d='M28 4 52 28 28 52 4 28Z' fill='none' stroke='%23c99a3e' stroke-opacity='.18' stroke-width='1'/%3E%3Cpath d='M28 16 40 28 28 40 16 28Z' fill='none' stroke='%23c99a3e' stroke-opacity='.12' stroke-width='1'/%3E%3C/svg%3E");
+}
+
+.text-gradient-gold {
+  background: linear-gradient(90deg, #e8cf84, #c99a3e 60%, #e8cf84);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Zoom lent sur l'image du hero */
+@keyframes kenburns {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+.animate-kenburns {
+  animation: kenburns 20s ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-kenburns {
+    animation: none;
+  }
 }

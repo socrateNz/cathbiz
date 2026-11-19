@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "title": "CBNA / RECA – Réseau des Entrepreneurs Catholiques d'Afrique",
+    "description": "Catholic Business Network of Africa : entrepreneurs, porteurs de projets et partenaires engagés à mettre l'entrepreneuriat au service du développement de l'Afrique, à la lumière des valeurs chrétiennes."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "Qui sommes-nous",
+    "programs": "Axes d'action",
+    "presence": "Présence",
+    "membership": "Adhésion",
+    "contact": "Contact",
+    "join": "Nous rejoindre",
+    "menu": "Menu",
+    "close": "Fermer",
+    "switchTo": "English"
+  },
+  "topbar": {
+    "seat": "Siège : Yaoundé, Cameroun"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Catholic Business Network of Africa",
+      "title": "Entreprendre avec foi pour le développement de l'Afrique",
+      "subtitle": "Le Réseau des Entrepreneurs Catholiques d'Afrique (RECA) rassemble entrepreneurs, porteurs de projets et partenaires qui mettent l'entrepreneuriat au service du bien commun.",
+      "ctaJoin": "Rejoindre le réseau",
+      "ctaDiscover": "Découvrir notre mission",
+      "label": "5ᵉ promesse du Sacré-Cœur de Jésus",
+      "cta": "Découvrir",
+      "photo": "Basilique Notre-Dame de la Paix, Yamoussoukro"
+    },
+    "welcome": {
+      "eyebrow": "Bienvenue",
+      "title": "Une communauté d'entrepreneurs en mission",
+      "p1": "Notre communauté rassemble entrepreneurs, porteurs de projets et partenaires engagés à mettre l'entrepreneuriat au service du développement de l'Afrique.",
+      "p2": "Nous nous appuyons sur la dévotion au Sacré-Cœur de Jésus et au Cœur Immaculé de Marie, sur l'intercession des saints et des anges, et sur les valeurs chrétiennes : intégrité, solidarité, justice et bien commun.",
+      "signature": "Frank Ombick",
+      "role": "Co-fondateur de CBNA",
+      "motto": "Tous en mission"
+    },
+    "promise": {
+      "eyebrow": "Notre fondement",
+      "title": "La promesse du Sacré-Cœur aux entrepreneurs",
+      "number": "5ᵉ promesse",
+      "quote": "Je répandrai d'abondantes bénédictions sur toutes leurs entreprises.",
+      "source": "Promesses de Notre Seigneur Jésus-Christ à sainte Marguerite-Marie Alacoque, Paray-le-Monial",
+      "text": "Parmi les promesses faites en faveur des personnes dévotes à son Sacré-Cœur, la cinquième s'adresse directement à ceux qui entreprennent. Elle est au cœur de notre réseau : nous confions nos projets, nos entreprises et nos collaborateurs au Sacré-Cœur de Jésus.",
+      "cta": "Notre spiritualité",
+      "listTitle": "Les promesses du Sacré-Cœur",
+      "items": [
+        "Je leur donnerai toutes les grâces nécessaires dans leur état.",
+        "Je mettrai la paix dans leur famille.",
+        "Je les consolerai dans toutes leurs peines.",
+        "Je serai leur refuge assuré pendant la vie et surtout à l'heure de la mort.",
+        "Je répandrai d'abondantes bénédictions sur toutes leurs entreprises.",
+        "Les pécheurs trouveront dans mon cœur la source et l'océan infini de la miséricorde.",
+        "Les âmes tièdes deviendront ferventes.",
+        "Les âmes ferventes s'élèveront à une grande perfection.",
+        "Je bénirai les maisons où l'image de mon cœur sera exposée et honorée.",
+        "Je donnerai aux prêtres le talent de toucher les cœurs les plus endurcis."
+      ],
+      "heartAlt": "Le Sacré-Cœur de Jésus"
+    },
+    "pillars": {
+      "eyebrow": "Ce qui nous porte",
+      "title": "Trois piliers spirituels",
+      "items": [
+        {
+          "title": "Les dévotions",
+          "text": "Au Sacré-Cœur de Jésus et au Cœur Immaculé de Marie, source de notre engagement et de notre espérance."
+        },
+        {
+          "title": "L'intercession des saints et des anges",
+          "text": "Saint Joseph, patron des travailleurs, sainte Marguerite-Marie Alacoque et les archanges Michel, Gabriel et Raphaël."
+        },
+        {
+          "title": "Les valeurs chrétiennes",
+          "text": "Intégrité, solidarité, justice et bien commun guident nos décisions et nos pratiques d'affaires."
+        }
+      ]
+    },
+    "axes": {
+      "eyebrow": "Nos axes d'action",
+      "title": "Entreprendre, employer, former",
+      "intro": "Avec des partenaires de référence en Afrique et hors d'Afrique, nous agissons sur trois leviers complémentaires.",
+      "cta": "Voir nos axes d'action"
+    },
+    "stats": [
+      {
+        "value": "7",
+        "label": "pays d'implantation"
+      },
+      {
+        "value": "3",
+        "label": "axes d'action"
+      },
+      {
+        "value": "4",
+        "label": "valeurs fondatrices"
+      },
+      {
+        "value": "FR · EN",
+        "label": "un réseau bilingue"
+      }
+    ],
+    "presence": {
+      "eyebrow": "Notre présence",
+      "title": "Une vision panafricaine, avec la diaspora",
+      "text": "Présent au Cameroun, en Côte d'Ivoire, à Madagascar, au Congo, en République centrafricaine, en Guinée équatoriale et au Nigeria, le réseau implique aussi la diaspora africaine.",
+      "cta": "Voir tous les pays"
+    },
+    "join": {
+      "title": "Vous êtes entrepreneur, porteur de projet ou partenaire ?",
+      "text": "Rejoignez une communauté qui conjugue foi, excellence et développement de l'Afrique.",
+      "cta": "Devenir membre",
+      "ctaContact": "Nous écrire"
+    },
+    "near": {
+      "eyebrow": "Auprès de vous",
+      "title": "Et vous ?",
+      "items": [
+        {
+          "label": "Adhérer au réseau",
+          "href": "/membership"
+        },
+        {
+          "label": "Devenir partenaire",
+          "href": "/contact"
+        },
+        {
+          "label": "Recevoir nos nouvelles",
+          "href": "mailto:cbna.reca@gmail.com?subject=%5BCBNA%5D%20Nouvelles"
+        }
+      ]
+    }
+  },
+  "axes": [
+    {
+      "title": "Entrepreneuriat",
+      "text": "Accompagner la création et la croissance d'entreprises dans toutes les catégories sociales.",
+      "points": [
+        "Jeunes",
+        "Femmes et jeunes filles",
+        "Personnes défavorisées",
+        "Diaspora",
+        "Retraités"
+      ]
+    },
+    {
+      "title": "Promotion de l'emploi",
+      "text": "Créer des emplois dignes et durables, et favoriser l'insertion professionnelle au sein des entreprises du réseau.",
+      "points": [
+        "Création d'emplois",
+        "Insertion professionnelle",
+        "Travail digne"
+      ]
+    },
+    {
+      "title": "Formation",
+      "text": "Former à tous les âges et dans toutes les catégories sociales, avec un accent sur le mentorat des jeunes entrepreneurs.",
+      "points": [
+        "Formation continue",
+        "Mentorat",
+        "Partage d'expérience"
+      ]
+    }
+  ],
+  "about": {
+    "hero": {
+      "title": "Qui sommes-nous",
+      "subtitle": "Catholic Business Network of Africa (CBNA), aussi appelé Réseau des Entrepreneurs Catholiques d'Afrique (RECA)."
+    },
+    "who": {
+      "eyebrow": "Notre identité",
+      "title": "Un réseau d'entrepreneurs catholiques au service de l'Afrique",
+      "p1": "CBNA / RECA est une association à but non lucratif et apolitique, dont le siège est à Yaoundé, au Cameroun.",
+      "p2": "Elle rassemble des entrepreneurs, des porteurs de projets et des partenaires qui veulent faire de l'entreprise un lieu de croissance humaine, économique et spirituelle, à la lumière de la doctrine sociale de l'Église.",
+      "p3": "Le réseau s'organise en sections nationales et en chapitres de la diaspora, et travaille en français et en anglais."
+    },
+    "spirituality": {
+      "eyebrow": "Notre spiritualité",
+      "title": "Les dévotions qui nous animent",
+      "heart": {
+        "title": "Le Sacré-Cœur de Jésus",
+        "text": "Nous confions nos entreprises au Sacré-Cœur, fidèles à la promesse faite à sainte Marguerite-Marie Alacoque : « Je répandrai d'abondantes bénédictions sur toutes leurs entreprises »."
+      },
+      "mary": {
+        "title": "Le Cœur Immaculé de Marie",
+        "text": "Nous nous tournons vers Marie, mère attentive, pour qu'elle guide notre travail, nos familles et nos communautés."
+      }
+    },
+    "saints": {
+      "eyebrow": "Nos intercesseurs",
+      "title": "Les saints et les anges",
+      "items": [
+        {
+          "name": "Saint Joseph",
+          "role": "Patron des travailleurs"
+        },
+        {
+          "name": "Sainte Marguerite-Marie Alacoque",
+          "role": "Messagère du Sacré-Cœur"
+        },
+        {
+          "name": "Saint Michel Archange",
+          "role": "Protection et combat spirituel"
+        },
+        {
+          "name": "Saint Gabriel Archange",
+          "role": "Messager de la Bonne Nouvelle"
+        },
+        {
+          "name": "Saint Raphaël Archange",
+          "role": "Guide et compagnon de route"
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Nos valeurs",
+      "title": "Quatre valeurs chrétiennes",
+      "items": [
+        {
+          "title": "Intégrité",
+          "text": "Agir avec honnêteté et transparence dans toutes nos relations d'affaires."
+        },
+        {
+          "title": "Solidarité",
+          "text": "Se soutenir mutuellement et ne laisser personne de côté."
+        },
+        {
+          "title": "Justice",
+          "text": "Rechercher l'équité dans le travail, les échanges et la répartition des fruits."
+        },
+        {
+          "title": "Bien commun",
+          "text": "Faire de l'entreprise un levier de développement pour toute la société."
+        }
+      ]
+    },
+    "governance": {
+      "eyebrow": "Notre organisation",
+      "title": "Une gouvernance au service de la mission",
+      "items": [
+        {
+          "title": "Assemblée Générale",
+          "text": "Organe souverain qui réunit les membres et fixe les grandes orientations."
+        },
+        {
+          "title": "Bureau Exécutif",
+          "text": "Met en œuvre les décisions et anime la vie du réseau."
+        },
+        {
+          "title": "Conseil d'Éthique et de Discernement",
+          "text": "Veille au respect du Code d'éthique et des valeurs de l'association."
+        },
+        {
+          "title": "Sections nationales et chapitres de la diaspora",
+          "text": "Font vivre le réseau au plus près des membres, dans chaque pays."
+        }
+      ]
+    },
+    "founder": {
+      "quote": "Notre communauté rassemble entrepreneurs, porteurs de projets et partenaires engagés à mettre l'entrepreneuriat au service du développement de l'Afrique. Tous en mission !",
+      "name": "Frank Ombick",
+      "role": "Co-fondateur de CBNA"
+    }
+  },
+  "programs": {
+    "hero": {
+      "title": "Nos axes d'action",
+      "subtitle": "Entrepreneuriat, emploi et formation : trois leviers pour le développement de l'Afrique."
+    },
+    "intro": "Nous agissons avec des partenaires de référence en Afrique et hors d'Afrique, pour que chaque catégorie sociale puisse entreprendre, travailler et se former.",
+    "audiences": {
+      "eyebrow": "Pour qui ?",
+      "title": "Toutes les catégories sociales",
+      "items": [
+        {
+          "title": "Jeunes",
+          "text": "Mentorat et accompagnement des jeunes entrepreneurs."
+        },
+        {
+          "title": "Femmes et jeunes filles",
+          "text": "Soutien à l'entrepreneuriat féminin et à l'autonomie économique."
+        },
+        {
+          "title": "Personnes défavorisées",
+          "text": "Des opportunités pour celles et ceux qui en sont éloignés."
+        },
+        {
+          "title": "Diaspora",
+          "text": "Un pont entre l'Afrique et ses enfants partout dans le monde."
+        },
+        {
+          "title": "Retraités",
+          "text": "Une expérience précieuse à transmettre et à valoriser."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Avec des partenaires de référence",
+      "text": "Institutions, entreprises, Église et organisations, en Afrique et ailleurs : vous souhaitez soutenir nos actions ? Parlons-en.",
+      "cta": "Devenir partenaire"
+    }
+  },
+  "presence": {
+    "hero": {
+      "title": "Notre présence",
+      "subtitle": "Sept pays d'implantation, une vision panafricaine et l'implication de la diaspora."
+    },
+    "intro": "Le réseau s'organise en sections nationales. Contactez la section de votre pays ou le siège à Yaoundé.",
+    "seat": "Siège",
+    "contactSeat": "Contact via le siège",
+    "countries": [
+      {
+        "code": "CM",
+        "name": "Cameroun",
+        "phones": [
+          "+237 670 02 53 26",
+          "+237 677 32 24 99",
+          "+237 655 71 42 44"
+        ],
+        "seat": true
+      },
+      {
+        "code": "CI",
+        "name": "Côte d'Ivoire",
+        "phones": [
+          "+225 07 33 64 32"
+        ]
+      },
+      {
+        "code": "CG",
+        "name": "Congo",
+        "phones": [
+          "+243 814 761 100"
+        ]
+      },
+      {
+        "code": "MG",
+        "name": "Madagascar",
+        "phones": [
+          "+261 34 51 668 19"
+        ]
+      },
+      {
+        "code": "CF",
+        "name": "République centrafricaine",
+        "phones": []
+      },
+      {
+        "code": "GQ",
+        "name": "Guinée équatoriale",
+        "phones": []
+      },
+      {
+        "code": "NG",
+        "name": "Nigeria",
+        "phones": []
+      }
+    ],
+    "diaspora": {
+      "title": "La diaspora, partie prenante",
+      "text": "Les membres africains de la diaspora se regroupent en chapitres. Ils gardent un lien durable avec leur pays d'origine et contribuent à son développement."
+    }
+  },
+  "membership": {
+    "hero": {
+      "title": "Adhésion",
+      "subtitle": "Rejoignez le Réseau des Entrepreneurs Catholiques d'Afrique."
+    },
+    "intro": "L'adhésion est ouverte aux entrepreneurs catholiques résidant en Afrique ou dans la diaspora, ainsi qu'aux personnes de bonne volonté qui partagent nos valeurs.",
+    "categories": {
+      "eyebrow": "Catégories",
+      "title": "Les catégories de membres",
+      "items": [
+        {
+          "name": "Membres actifs",
+          "text": "Entrepreneurs catholiques à jour de leur cotisation. Ils ont voix délibérative et peuvent être élus."
+        },
+        {
+          "name": "Membres juniors",
+          "text": "Jeunes entrepreneurs bénéficiant du programme de mentorat. Ils deviennent membres actifs à l'âge limite."
+        },
+        {
+          "name": "Membres associés",
+          "text": "Personnes de bonne volonté, non catholiques ou non entrepreneurs, qui s'engagent à respecter la charte éthique."
+        },
+        {
+          "name": "Membres bienfaiteurs",
+          "text": "Personnes physiques ou morales qui soutiennent matériellement ou financièrement le réseau."
+        },
+        {
+          "name": "Membres d'honneur",
+          "text": "Désignés par l'Assemblée Générale pour services éminents rendus."
+        }
+      ]
+    },
+    "steps": {
+      "eyebrow": "Démarche",
+      "title": "Comment adhérer ?",
+      "items": [
+        {
+          "title": "Prendre contact",
+          "text": "Écrivez-nous ou contactez la section de votre pays pour recevoir le formulaire d'adhésion."
+        },
+        {
+          "title": "Être parrainé",
+          "text": "Votre candidature est parrainée par deux membres actifs qui vous connaissent."
+        },
+        {
+          "title": "Constituer le dossier",
+          "text": "Joignez les pièces demandées et le Code d'éthique signé."
+        },
+        {
+          "title": "Décision du Bureau",
+          "text": "Le Bureau Exécutif examine la demande et vous notifie sa décision."
+        }
+      ]
+    },
+    "docs": {
+      "title": "Pièces à fournir",
+      "items": [
+        "Une pièce d'identité",
+        "Un justificatif d'activité (immatriculation, numéro fiscal ou équivalent)",
+        "Le certificat de baptême ou une déclaration sur l'honneur",
+        "Le Code d'éthique signé",
+        "Pour la diaspora : les éléments établissant le lien avec le pays d'origine",
+        "Pour une personne morale : l'acte de désignation de son représentant"
+      ]
+    },
+    "note": "Le montant du droit d'adhésion et des cotisations est fixé par l'Assemblée Générale. Contactez-nous pour connaître le barème en vigueur.",
+    "cta": "Demander le formulaire"
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Une question, un projet, un partenariat ? Écrivez-nous."
+    },
+    "infoTitle": "Nos coordonnées",
+    "email": "E-mail",
+    "phones": "Téléphones (Cameroun)",
+    "address": "Siège",
+    "addressValue": "Yaoundé, Cameroun",
+    "countriesTitle": "Contacts pays",
+    "form": {
+      "title": "Envoyer un message",
+      "name": "Nom complet",
+      "email": "Votre e-mail",
+      "subject": "Objet",
+      "subjects": [
+        "Adhésion",
+        "Partenariat",
+        "Formation",
+        "Autre"
+      ],
+      "message": "Message",
+      "send": "Envoyer",
+      "note": "Le bouton ouvre votre messagerie avec le message pré-rempli."
+    }
+  },
+  "footer": {
+    "tagline": "Entrepreneurs catholiques engagés pour le développement de l'Afrique, à la lumière du Sacré-Cœur de Jésus.",
+    "links": "Navigation",
+    "contact": "Contact",
+    "rights": "Tous droits réservés.",
+    "nonprofit": "Association à but non lucratif et apolitique"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "back": "Retour à l'accueil"
+  },
+  "quotes": {
+    "work": {
+      "text": "Quel que soit votre travail, faites-le de bon cœur, comme pour le Seigneur et non pour plaire à des hommes.",
+      "ref": "Colossiens 3, 23"
+    },
+    "talents": {
+      "text": "C'est bien, serviteur bon et fidèle, tu as été fidèle pour peu de choses, je t'en confierai beaucoup.",
+      "ref": "Matthieu 25, 21"
+    },
+    "hands": {
+      "text": "Consolide pour nous l'ouvrage de nos mains ; oui, consolide l'ouvrage de nos mains.",
+      "ref": "Psaume 89 (90), 17"
+    }
+  }
+}
