@@ -3,7 +3,7 @@ import { routing, type Locale } from "@/i18n/routing";
 
 /** URL publique du site (à surcharger avec NEXT_PUBLIC_SITE_URL si le domaine change) */
 export const siteUrl = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://catholic-business-network-africa.org"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.cathbiz-africa.org"
 ).replace(/\/$/, "");
 
 export const siteName = "CBNA · RECA";
