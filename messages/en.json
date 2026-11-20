@@ -34,7 +34,8 @@
       "ctaDiscover": "Discover our mission",
       "label": "5th promise of the Sacred Heart of Jesus",
       "cta": "Discover",
-      "photo": "Basilica of Our Lady of Peace, Yamoussoukro"
+      "photo": "Basilica of Our Lady of Peace, Yamoussoukro",
+      "ctaDonate": "Make a donation"
     },
     "welcome": {
       "eyebrow": "Welcome",
@@ -459,11 +460,18 @@
         "Membership",
         "Partnership",
         "Training",
+        "Donation",
         "Other"
       ],
       "message": "Message",
       "send": "Send",
-      "note": "The button opens your email app with the message pre-filled."
+      "note": "You will receive a copy of your message by email.",
+      "donSubject": "Donation",
+      "sending": "Sending…",
+      "successTitle": "Message sent",
+      "successText": "Thank you! A confirmation email has just been sent to you. We will reply shortly.",
+      "errorInvalid": "Please fill in your name, a valid email address and your message.",
+      "errorServer": "Sending failed. Please try again shortly or write to us directly at contact@cathbiz-africa.org."
     }
   },
   "footer": {

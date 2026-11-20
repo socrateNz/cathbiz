@@ -89,8 +89,8 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
               <p className="mt-4 max-w-lg leading-relaxed text-white/80">{t("hero.subtitle")}</p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Button href="/about">{t("hero.cta")}</Button>
-                <Button href="/membership" variant="outline">
-                  {t("hero.ctaJoin")}
+                <Button href="/contact#don" variant="outline">
+                  <Heart className="h-4 w-4" /> {t("hero.ctaDonate")}
                 </Button>
               </div>
             </Reveal>
@@ -190,9 +190,8 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
               return (
                 <li key={i} className="flex items-center gap-5 border-b border-purple/10 py-4">
                   <span
-                    className={`flex h-9 w-9 shrink-0 rotate-45 items-center justify-center rounded-md ${
-                      key ? "bg-gold" : "border border-gold/70"
-                    }`}
+                    className={`flex h-9 w-9 shrink-0 rotate-45 items-center justify-center rounded-md ${key ? "bg-gold" : "border border-gold/70"
+                      }`}
                   >
                     <span className={`-rotate-45 text-sm font-semibold ${key ? "text-purple-deep" : "text-gold"}`}>
                       {i + 1}

@@ -34,7 +34,8 @@
       "ctaDiscover": "Découvrir notre mission",
       "label": "5ᵉ promesse du Sacré-Cœur de Jésus",
       "cta": "Découvrir",
-      "photo": "Basilique Notre-Dame de la Paix, Yamoussoukro"
+      "photo": "Basilique Notre-Dame de la Paix, Yamoussoukro",
+      "ctaDonate": "Faire un don"
     },
     "welcome": {
       "eyebrow": "Bienvenue",
@@ -459,11 +460,18 @@
         "Adhésion",
         "Partenariat",
         "Formation",
+        "Don",
         "Autre"
       ],
       "message": "Message",
       "send": "Envoyer",
-      "note": "Le bouton ouvre votre messagerie avec le message pré-rempli."
+      "note": "Vous recevrez une copie de votre message par e-mail.",
+      "donSubject": "Don",
+      "sending": "Envoi…",
+      "successTitle": "Message envoyé",
+      "successText": "Merci ! Un e-mail de confirmation vient de vous être envoyé. Nous vous répondrons rapidement.",
+      "errorInvalid": "Merci de remplir votre nom, une adresse e-mail valide et votre message.",
+      "errorServer": "L'envoi a échoué. Réessayez dans un instant ou écrivez-nous directement à contact@cathbiz-africa.org."
     }
   },
   "footer": {
