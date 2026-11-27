@@ -79,7 +79,7 @@ export default function ContactForm() {
       {state.status === "error" && (
         <p role="alert" className="flex items-start gap-2 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-800">
           <TriangleAlert className="mt-0.5 h-4 w-4 shrink-0" />
-          {state.error === "invalid" ? t("errorInvalid") : t("errorServer")}
+          {state.error === "invalid" ? t("errorInvalid") : state.error === "rate" ? t("errorRate") : t("errorServer")}
         </p>
       )}
 

@@ -1,22 +1,37 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { Mail, Menu, Phone, X, MapPin } from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { navItems, site, telHref } from "@/lib/site";
 
+/**
+ * L'URL courante n'est connue qu'à la requête sur les pages dynamiques :
+ * l'en-tête est prérendu sans lien actif, puis remplacé dès que l'URL est disponible.
+ */
 export default function Header() {
+  return (
+    <Suspense fallback={<HeaderView pathname={null} />}>
+      <HeaderWithPath />
+    </Suspense>
+  );
+}
+
+function HeaderWithPath() {
+  return <HeaderView pathname={usePathname()} />;
+}
+
+function HeaderView({ pathname }: { pathname: string | null }) {
   const t = useTranslations("nav");
   const tt = useTranslations("topbar");
   const locale = useLocale();
-  const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const otherLocale = locale === "fr" ? "en" : "fr";
 
   const isActive = (href: string) =>
-    href === "/" ? pathname === "/" : pathname.startsWith(href);
+    pathname !== null && (href === "/" ? pathname === "/" : pathname.startsWith(href));
 
   return (
     <header className="sticky top-0 z-50">
@@ -44,7 +59,7 @@ export default function Header() {
             <Image src="/images/logo-cbna.png" alt="Logo CBNA" width={52} height={52} priority className="rounded-full ring-1 ring-gold" />
             <span className="leading-tight">
               <span className="block whitespace-nowrap font-serif text-xl font-bold text-purple">CBNA · RECA</span>
-              <span className="hidden whitespace-nowrap text-[11px] uppercase tracking-wider text-muted sm:block">
+              <span className="hidden whitespace-nowrap text-[11px] uppercase tracking-wider text-muted sm:block xl:hidden 2xl:block">
                 Catholic Business Network of Africa
               </span>
             </span>
@@ -66,7 +81,7 @@ export default function Header() {
 
           <div className="flex items-center gap-2">
             <Link
-              href={pathname}
+              href={pathname ?? "/"}
               locale={otherLocale}
               className="rounded-full border border-purple/20 px-3 py-1.5 text-xs font-semibold uppercase text-purple hover:bg-purple hover:text-white"
               aria-label={t("switchTo")}

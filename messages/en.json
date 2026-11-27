@@ -7,7 +7,8 @@
       "programs": "Entrepreneurship, job creation and training: the areas of action of the Catholic Business Network of Africa for young people, women and the diaspora.",
       "presence": "CBNA / RECA is present in Cameroon, Côte d'Ivoire, Madagascar, Congo, the Central African Republic, Equatorial Guinea and Nigeria, with the diaspora.",
       "membership": "Join the Catholic Business Network of Africa: membership categories, sponsorship process and required documents to become a CBNA / RECA member.",
-      "contact": "Contact CBNA / RECA, headquartered in Yaoundé, Cameroon: email, phone numbers and country contacts for membership, partnerships or training."
+      "contact": "Contact CBNA / RECA, headquartered in Yaoundé, Cameroon: email, phone numbers and country contacts for membership, partnerships or training.",
+      "jobs": "Jobs, internships and assignments posted by businesses of the Catholic Business Network of Africa (CBNA / RECA). Apply online."
     }
   },
   "nav": {
@@ -20,7 +21,8 @@
     "join": "Join us",
     "menu": "Menu",
     "close": "Close",
-    "switchTo": "Français"
+    "switchTo": "Français",
+    "jobs": "Jobs"
   },
   "topbar": {
     "seat": "Headquarters: Yaoundé, Cameroon"
@@ -471,7 +473,8 @@
       "successTitle": "Message sent",
       "successText": "Thank you! A confirmation email has just been sent to you. We will reply shortly.",
       "errorInvalid": "Please fill in your name, a valid email address and your message.",
-      "errorServer": "Sending failed. Please try again shortly or write to us directly at contact@cathbiz-africa.org."
+      "errorServer": "Sending failed. Please try again shortly or write to us directly at contact@cathbiz-africa.org.",
+      "errorRate": "Too many messages sent. Please try again in an hour."
     }
   },
   "footer": {
@@ -498,6 +501,91 @@
     "hands": {
       "text": "May the favour of the Lord our God be ours. Prosper the work of our hands!",
       "ref": "Psalm 90:17"
+    }
+  },
+  "jobs": {
+    "hero": {
+      "title": "Job offers",
+      "subtitle": "Opportunities within the network's businesses, in Africa and in the diaspora."
+    },
+    "filters": {
+      "all": "All",
+      "country": "Country",
+      "contract": "Contract"
+    },
+    "count": "{count, plural, =0 {No offers} one {# offer} other {# offers}}",
+    "empty": {
+      "title": "No offers at the moment",
+      "text": "Come back soon or write to us to hear about upcoming opportunities.",
+      "cta": "Write to us"
+    },
+    "noMatch": "No offers match these filters.",
+    "card": {
+      "view": "View offer",
+      "deadline": "Deadline: {date}"
+    },
+    "countries": {
+      "CM": "Cameroon",
+      "CI": "Côte d'Ivoire",
+      "CG": "Congo",
+      "MG": "Madagascar",
+      "CF": "Central African Rep.",
+      "GQ": "Equatorial Guinea",
+      "NG": "Nigeria",
+      "OTHER": "Other country",
+      "REMOTE": "Remote"
+    },
+    "contracts": {
+      "cdi": "Permanent",
+      "cdd": "Fixed-term",
+      "internship": "Internship",
+      "freelance": "Freelance / consultant",
+      "volunteer": "Volunteer",
+      "apprenticeship": "Apprenticeship"
+    },
+    "detail": {
+      "back": "All offers",
+      "summary": "The position",
+      "missions": "Responsibilities",
+      "profile": "Profile",
+      "benefits": "What we offer",
+      "company": "Company",
+      "location": "Location",
+      "contract": "Contract",
+      "deadline": "Deadline",
+      "published": "Posted on {date}",
+      "closedTitle": "Offer closed",
+      "closedText": "This offer no longer accepts applications. See our other offers.",
+      "notFound": "This offer does not exist or is no longer available."
+    },
+    "apply": {
+      "title": "Apply",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "City and country of residence",
+      "coverLetter": "Cover letter",
+      "coverLetterHint": "Optional: introduce yourself in a few lines.",
+      "cv": "Your CV",
+      "cvHint": "PDF, DOC or DOCX, 10 MB maximum.",
+      "cvChoose": "Choose a file",
+      "consent": "I agree that my data may be used by CBNA / RECA and the company concerned to process my application.",
+      "send": "Send my application",
+      "uploading": "Uploading CV…",
+      "sending": "Sending application…",
+      "successTitle": "Application sent!",
+      "successText": "Thank you. A confirmation email has just been sent to you. We will get back to you if your profile is shortlisted.",
+      "errors": {
+        "invalid": "Please check the required fields and accept the processing of your data.",
+        "cvMissing": "Please attach your CV.",
+        "cvType": "Format not accepted: please send a PDF, DOC or DOCX.",
+        "cvSize": "The file exceeds 10 MB.",
+        "cv": "Your CV could not be saved. Please try again.",
+        "closed": "This offer no longer accepts applications.",
+        "duplicate": "You have already applied to this offer with this email address.",
+        "rate": "Too many attempts. Please try again in an hour.",
+        "server": "Something went wrong. Please try again shortly."
+      }
     }
   }
 }

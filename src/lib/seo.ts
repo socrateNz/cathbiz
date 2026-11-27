@@ -11,7 +11,7 @@ export const siteName = "CBNA · RECA";
 const ogLocales: Record<Locale, string> = { fr: "fr_FR", en: "en_US" };
 
 /** Pages publiques du site, utilisées par le sitemap */
-export const sitePaths = ["", "/about", "/programs", "/presence", "/membership", "/contact"] as const;
+export const sitePaths = ["", "/about", "/programs", "/presence", "/jobs", "/membership", "/contact"] as const;
 
 /** Métadonnées SEO d'une page : canonique, hreflang, Open Graph et Twitter */
 export function pageMetadata({
@@ -22,7 +22,7 @@ export function pageMetadata({
   description,
 }: {
   locale: string;
-  path: (typeof sitePaths)[number];
+  path: (typeof sitePaths)[number] | `/jobs/${string}`;
   /** Titre de la page (le gabarit « | CBNA / RECA » est ajouté) */
   title?: string;
   /** Titre complet de l'accueil, utilisé tel quel */

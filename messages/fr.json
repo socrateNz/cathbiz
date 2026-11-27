@@ -7,7 +7,8 @@
       "programs": "Entrepreneuriat, emploi et formation : les axes d'action du Réseau des Entrepreneurs Catholiques d'Afrique pour les jeunes, les femmes et la diaspora.",
       "presence": "CBNA / RECA est présent au Cameroun, en Côte d'Ivoire, à Madagascar, au Congo, en Centrafrique, en Guinée équatoriale et au Nigeria, avec la diaspora.",
       "membership": "Adhérez au Réseau des Entrepreneurs Catholiques d'Afrique : catégories de membres, démarche de parrainage et pièces à fournir pour rejoindre CBNA / RECA.",
-      "contact": "Contactez CBNA / RECA, siège à Yaoundé (Cameroun) : e-mail, téléphones et contacts pays pour une adhésion, un partenariat ou une formation."
+      "contact": "Contactez CBNA / RECA, siège à Yaoundé (Cameroun) : e-mail, téléphones et contacts pays pour une adhésion, un partenariat ou une formation.",
+      "jobs": "Offres d'emploi, stages et missions publiés par les entreprises du Réseau des Entrepreneurs Catholiques d'Afrique (CBNA / RECA). Postulez en ligne."
     }
   },
   "nav": {
@@ -20,7 +21,8 @@
     "join": "Nous rejoindre",
     "menu": "Menu",
     "close": "Fermer",
-    "switchTo": "English"
+    "switchTo": "English",
+    "jobs": "Emplois"
   },
   "topbar": {
     "seat": "Siège : Yaoundé, Cameroun"
@@ -471,7 +473,8 @@
       "successTitle": "Message envoyé",
       "successText": "Merci ! Un e-mail de confirmation vient de vous être envoyé. Nous vous répondrons rapidement.",
       "errorInvalid": "Merci de remplir votre nom, une adresse e-mail valide et votre message.",
-      "errorServer": "L'envoi a échoué. Réessayez dans un instant ou écrivez-nous directement à contact@cathbiz-africa.org."
+      "errorServer": "L'envoi a échoué. Réessayez dans un instant ou écrivez-nous directement à contact@cathbiz-africa.org.",
+      "errorRate": "Trop de messages envoyés. Réessayez dans une heure."
     }
   },
   "footer": {
@@ -498,6 +501,91 @@
     "hands": {
       "text": "Consolide pour nous l'ouvrage de nos mains ; oui, consolide l'ouvrage de nos mains.",
       "ref": "Psaume 89 (90), 17"
+    }
+  },
+  "jobs": {
+    "hero": {
+      "title": "Offres d'emploi",
+      "subtitle": "Des opportunités au sein des entreprises du réseau, en Afrique et dans la diaspora."
+    },
+    "filters": {
+      "all": "Tous",
+      "country": "Pays",
+      "contract": "Contrat"
+    },
+    "count": "{count, plural, =0 {Aucune offre} one {# offre} other {# offres}}",
+    "empty": {
+      "title": "Aucune offre pour le moment",
+      "text": "Revenez bientôt ou écrivez-nous pour être informé des prochaines opportunités.",
+      "cta": "Nous écrire"
+    },
+    "noMatch": "Aucune offre ne correspond à ces filtres.",
+    "card": {
+      "view": "Voir l'offre",
+      "deadline": "Date limite : {date}"
+    },
+    "countries": {
+      "CM": "Cameroun",
+      "CI": "Côte d'Ivoire",
+      "CG": "Congo",
+      "MG": "Madagascar",
+      "CF": "Centrafrique",
+      "GQ": "Guinée équatoriale",
+      "NG": "Nigeria",
+      "OTHER": "Autre pays",
+      "REMOTE": "Télétravail"
+    },
+    "contracts": {
+      "cdi": "CDI",
+      "cdd": "CDD",
+      "internship": "Stage",
+      "freelance": "Freelance / consultant",
+      "volunteer": "Bénévolat / volontariat",
+      "apprenticeship": "Alternance"
+    },
+    "detail": {
+      "back": "Toutes les offres",
+      "summary": "Le poste",
+      "missions": "Missions",
+      "profile": "Profil recherché",
+      "benefits": "Ce que nous offrons",
+      "company": "Entreprise",
+      "location": "Lieu",
+      "contract": "Contrat",
+      "deadline": "Date limite",
+      "published": "Publiée le {date}",
+      "closedTitle": "Offre clôturée",
+      "closedText": "Cette offre n'accepte plus de candidatures. Consultez nos autres offres.",
+      "notFound": "Cette offre n'existe pas ou n'est plus disponible."
+    },
+    "apply": {
+      "title": "Postuler",
+      "name": "Nom complet",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "location": "Ville et pays de résidence",
+      "coverLetter": "Lettre de motivation",
+      "coverLetterHint": "Facultatif : présentez-vous en quelques lignes.",
+      "cv": "Votre CV",
+      "cvHint": "PDF, DOC ou DOCX, 10 Mo maximum.",
+      "cvChoose": "Choisir un fichier",
+      "consent": "J'accepte que mes données soient utilisées par CBNA / RECA et l'entreprise concernée pour le traitement de ma candidature.",
+      "send": "Envoyer ma candidature",
+      "uploading": "Envoi du CV…",
+      "sending": "Envoi de la candidature…",
+      "successTitle": "Candidature envoyée !",
+      "successText": "Merci. Un e-mail de confirmation vient de vous être envoyé. Nous reviendrons vers vous si votre profil est retenu.",
+      "errors": {
+        "invalid": "Merci de vérifier les champs obligatoires et d'accepter le traitement de vos données.",
+        "cvMissing": "Merci de joindre votre CV.",
+        "cvType": "Format non accepté : envoyez un PDF, DOC ou DOCX.",
+        "cvSize": "Le fichier dépasse 10 Mo.",
+        "cv": "Le CV n'a pas pu être enregistré. Réessayez.",
+        "closed": "Cette offre n'accepte plus de candidatures.",
+        "duplicate": "Vous avez déjà postulé à cette offre avec cette adresse e-mail.",
+        "rate": "Trop de tentatives. Réessayez dans une heure.",
+        "server": "Une erreur est survenue. Réessayez dans un instant."
+      }
     }
   }
 }
